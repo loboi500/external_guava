@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # Known text files
 *.java text
 *.xml text
@@ -9,6 +8,28 @@
 *.sh text
 *.css text
 *.txt text
-
 # Known binary files
 *.jar binary
+guava-bom filter=lfs diff=lfs merge=lfs -text
+guava-gwt filter=lfs diff=lfs merge=lfs -text
+guava-tests filter=lfs diff=lfs merge=lfs -text
+refactorings filter=lfs diff=lfs merge=lfs -text
+cycle_whitelist.txt filter=lfs diff=lfs merge=lfs -text
+COPYING filter=lfs diff=lfs merge=lfs -text
+guava-testlib filter=lfs diff=lfs merge=lfs -text
+javadoc-stylesheet.css filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_APACHE2 filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+util filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+CleanSpec.mk filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTORS filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+android filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTING.md filter=lfs diff=lfs merge=lfs -text
+futures filter=lfs diff=lfs merge=lfs -text
+guava filter=lfs diff=lfs merge=lfs -text
+NOTICE filter=lfs diff=lfs merge=lfs -text
+pom.xml filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+android-annotation-stubs filter=lfs diff=lfs merge=lfs -text
